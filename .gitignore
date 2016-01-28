@@ -1,0 +1,59 @@
+# Project specific file
+data/
+eigen
+nn
+front/lastTestSession.txt
+front/LastTestSession.txt
+
+
+###For cxx test
+runner.cpp
+runner
+
+###For MongoDB build directory
+mongodb/mongo-cxx-driver/build/
+
+###For editor temporary file
+*~
+*.swp
+*.swo
+
+###For CMAKE
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+install_manifest.txt
+
+###For python byte code
+*.pyc
+
+###For c++
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# For python
+*.pyc

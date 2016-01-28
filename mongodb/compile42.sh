@@ -1,0 +1,1 @@
+g++ main.cpp dbInteractions.cpp csvReader.cpp -I . -I mongo-cxx-driver/build/install/include -I ~/.brew/include -I ../libmath/inc  -pthread -L mongo-cxx-driver/build/install/lib -lmongoclient -L ~/.brew/lib/ -lboost_thread-mt -lboost_system -lboost_regex -o tutorial -std=c++11

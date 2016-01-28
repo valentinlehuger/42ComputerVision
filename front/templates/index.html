@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>42CV</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+	  <a href="/stats">Stats</a>
+		<h1>DataSet Training </h1>
+		{% for file in files_training %}
+		<img src="{{ file }}" />
+		{% endfor %}
+		<h1>DataSet Test </h1>
+		{% for file in files_test %}
+			<img src="{{ file }}" />
+		{% endfor %}
+		<h1>DataSet Match </h1>
+		{% for file,file2 in files_match %}
+		<table style="display:inline-block;border: 1px solid black;">
+			<th>Image Test</th>
+			<th>Image Match</th>
+		<tr>
+			<td><img src="{{ file }}" /></td>
+			<td><img src="{{ file2 }}" /></td>
+		</tr>  
+		</table>
+		{% endfor %}
+	</body>
+</html>
